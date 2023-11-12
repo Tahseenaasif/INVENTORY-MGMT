@@ -1,0 +1,30 @@
+{
+  "name": "inventory_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs": "^2.0.0",
+    "express-ejs-layouts": "^2.5.1",
+    "express-layout": "^0.1.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "fs": "^0.0.1-security",
+    "layout": "^2.2.0",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
